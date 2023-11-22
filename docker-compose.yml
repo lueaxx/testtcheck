@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3'
+services:
+  web:
+    build: .
+    mem_limit: '10m'
+    cpus: '0.01'
+    ports:
+      - "443:443"

